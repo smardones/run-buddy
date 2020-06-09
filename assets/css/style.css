@@ -144,20 +144,16 @@ button {
     border: none;
 }
 
-.intro {
-    text-align: center;
-}
-
 .intro p {
     line-height: 1.7;
     width: 80%;
     font-size: 20px;
     color: #39a6b2;
     margin: 0 auto;
+    text-align: center;
 }
 
 .steps {
-    text-align: center;
     background-color: #fce138;
     border: none;
     width: 80%;
@@ -167,9 +163,6 @@ button {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
   }
 
@@ -206,7 +199,7 @@ button {
   }
 
 .trainers {
-    text-align: center;
+    
 }
 
 .trainer {
@@ -257,7 +250,6 @@ button {
 
 .contact {
     background: #024e76;
-    text-align: center;
 }
 
 .contact h2 {
@@ -292,4 +284,8 @@ button {
 
 .contact-info a {
     color:#fce138;
+}
+
+.flex-row {
+    display: flex;
 }
