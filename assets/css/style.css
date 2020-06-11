@@ -276,16 +276,29 @@ button {
 
 /** Services Grid **/
 
+.services {
+    background: #fce138;
+}
+
+.service-grid-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
 .service-grid-container {
     display: grid;
+    grid-template-columns: 1fr repeat(3, 4fr);
+    grid-template-rows: repeat(5, 1fr) 2fr;
+    background: lightyellow;
+    width: 80%;
+    border: 2px solid #024e76;
+    color: #024e76;
+    font-size: 18px;
 }
 
 .service-grid-item {
-    width: 200px;
-    height: 50px;
-    background-color: orange;
-    border: solid;
-    color: black;
+    
 }
 
 /** contact-info section **/
